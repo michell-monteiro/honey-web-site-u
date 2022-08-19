@@ -60,16 +60,23 @@ a {
 
 /* Introdução */
 section.img-bg {
-    height: 50vh;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* max-width: 960px;
+    margin: 0 auto; */
 }
 
 section.img-bg > p{
     text-align: center;
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
-    font-size: 1.25em;
+    font-size: 1.8em;
+    padding-bottom: 20px;
 }
 
 section#honey-main {
-    background-color: black ;
+    background: black url('../img/honey-main-bg.jpg') bottom center  no-repeat fixed;
+    background-size: cover;
 }
