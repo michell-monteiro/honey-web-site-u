@@ -191,6 +191,17 @@ section#honey-main {
         overflow-x: hidden;
     }
 
+    .menu-nav a {
+        color: white;
+        border-radius: 10px;
+    }
+
+    .menu-nav a:hover {
+        transition-duration: 0.5s;
+        background-color: white;
+        color: #A54206;
+    }
+
     .nav-list {
         position: absolute;
         top: 12.9vh;
@@ -218,10 +229,11 @@ section#honey-main {
         transform: translateX(0);
     }
 
+    /* Anima os links */
     @keyframes navLinkFade {
         from {
             opacity: 0;
-            transform: translateX(50%);
+            transform: translateX(50px);
         }
         to {
             opacity: 1;
