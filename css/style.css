@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
 .menu-bg {
     background-color: white;
 }
@@ -186,7 +191,7 @@ section#honey-main {
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 999px) {
     body {
         overflow-x: hidden;
     }
