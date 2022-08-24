@@ -71,6 +71,7 @@ a {
 .mobile-menu {
     display: none;
     cursor: pointer;
+    padding-left: 200px;
 }
 
 .mobile-menu div{
