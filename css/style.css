@@ -18,6 +18,24 @@ a {
     text-decoration: none;
 }
 
+.superinfo-bg {
+    background-color: orange;
+    color: white;
+}
+
+.superinfo {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+#tel-cor {
+    color: white;
+}
+
 .logo {
     height: 100px;
     width: 100px;
