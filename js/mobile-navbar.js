@@ -17,11 +17,16 @@ class MobileNavbar {
             }s`);
       });
     }
-  
+
+    turnOn() {
+      document.getElementById("overlay").style.display = "block";
+    }
+
     handleClick() {
       this.navList.classList.toggle(this.activeClass);
       this.mobileMenu.classList.toggle(this.activeClass);
       this.animateLinks();
+      this.turnOn();
     }
   
     addClickEvent() {
