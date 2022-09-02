@@ -18,15 +18,16 @@ class MobileNavbar {
       });
     }
 
-    turnOn() {
-      document.getElementById("overlay").style.display = "block";
-    }
+    // Teste overlay
+    // turnOn() {
+    //   document.getElementById("overlay").style.display = "block";
+    // }
 
     handleClick() {
       this.navList.classList.toggle(this.activeClass);
       this.mobileMenu.classList.toggle(this.activeClass);
       this.animateLinks();
-      this.turnOn();
+      // this.turnOn();
     }
   
     addClickEvent() {
